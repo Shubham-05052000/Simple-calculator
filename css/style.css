@@ -5,26 +5,20 @@ body{
 .navbar{
     background-image: url(https://images.pexels.com/photos/1235398/pexels-photo-1235398.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
-.navbar ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    /* margin-left: 10px; */
+.navbar h1{
+    font-size: 15px;
+    text-align: center;
 }
-.navbar ul li a{
-    font-size: 30px;
-    color: wheat;
+.navbar a{
     text-decoration: none;
-}
-a:hover{
-    background-color: rgb(133, 119, 119);
+    color: black;
 }
 img{
     width: 60px;
     height: 60px;
     border-radius: 50%;
     position: absolute;
-    top: 10%;
+    top: 08%;
     left: 38%;
 }
 .card{
@@ -111,20 +105,4 @@ button:nth-child(16){
 button:nth-child(20){
     font-size: 20px;
     background-color: #9477af;
-}
-@media (max-width: 860PX){
-    .navbar ul li a{
-        font-size: 15px;
-        color: wheat;
-        text-decoration: none;
-    }
-    .navbar ul{
-        list-style: none;
-        display: flex;
-        margin-left: 2px;
-        /* margin-left: 10px; */
-    }
-    .navbar a{
-        margin-left: 10px;
-    }
 }
